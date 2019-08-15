@@ -1,0 +1,41 @@
+/* PHASE 3: Layout */
+
+.content {
+  height: 240px;
+  width: 900px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+}
+
+.content div {
+  border: 1px solid gray;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+.content-sidebar {
+  min-width: 200px;
+}
+
+.content-main {
+  width: 700px;
+}
+
+footer {
+  width: 900px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: gray;
+  font-size: 12px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-footer {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
